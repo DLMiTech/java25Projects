@@ -1,16 +1,18 @@
-import networkingC_D.db.DBAccess;
+package computerScience;
+
+import computerScience.db.DBAccess;
 
 import java.sql.Connection;
 
-public class StartNetworkingCDApp {
+public class StartCompSciApp {
     public static void main(String[] args) {
         DBAccess db = new DBAccess();
         Connection connection = db.getConnection();
 
         if (connection != null) {
-            System.out.println("Connected to the database");
+            System.out.println("Connection successful");
         }else {
-            System.out.println("Connection Failed!!!");
+            System.out.println("Connection failed");
         }
     }
 }

@@ -1,5 +1,6 @@
+package networkingA_B;
+
 import networkingA_B.db.DBAccess;
-import networkingA_B.models.Block;
 
 import java.sql.Connection;
 
