@@ -1,4 +1,4 @@
-package networkingA_B.models;
+package networkingA_B.classes;
 
 import java.time.LocalDateTime;
 
